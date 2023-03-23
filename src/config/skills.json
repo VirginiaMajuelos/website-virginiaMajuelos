@@ -1,0 +1,47 @@
+[
+  {
+    "icon": "devicon-html5-plain-wordmark colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-css3-plain-wordmark colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-javascript-plain colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-tailwindcss-original-wordmark colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-sass-original colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-handlebars-plain-wordmark colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-bootstrap-plain colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-react-original-wordmark colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-nodejs-plain-wordmark colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-wordpress-plain colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-markdown-original colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-npm-original-wordmark colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-git-plain colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-github-original colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-jira-plain colored md:text-7xl text-4xl"
+  }
+]

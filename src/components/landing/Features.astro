@@ -1,0 +1,51 @@
+---
+import features from "../../config/features.json";
+---
+
+<div
+  id="projects"
+  class="flex flex-col pb-16 items-center justify-center bg-gradient-to-r from-indigo-800 to-zinc-900"
+>
+  <h2 class="text-center font-bold text-5xl pt-16">/ Projects</h2>
+
+  {
+    features.map((feature) => (
+      <>
+        <div class="h-auto my-12 md:my-24 md:flex justify-evenly">
+          <div class="flex mx-6 flex-col justify-center md:w-2/5 ">
+            <p class="text-2xl md:text-4xl font-bold text-gray-300 mb-14 md:mb-28">
+              / {feature.id}.
+            </p>
+            <h2 class="text-3xl md:text-5xl font-light text-orange-300 mb-4">
+              {feature.title}
+            </h2>
+            <p class="text-xs md:text-2xl text-gray-300 my-2 md:my-8">
+              {feature.description}
+            </p>
+            <div class="flex flex-wrap">
+              {feature.tech.map((tech) => (
+                <div class="px-2 m-2 hover:bg-gray-200">
+                  <i class={tech.icon} />
+                </div>
+              ))}
+            </div>
+          </div>
+          <div class="flex mx-10 flex-row md:flex-col justify-center md:w-2/5">
+            <img
+              src={feature.img}
+              alt="Imagen del proyecto 1"
+              class="object-center rounded-lg "
+            />
+          </div>
+        </div>
+        <div class="text-center md:text-left">
+          <button class="bg-orange-300 px-6 py-3 m-2 md:px-6 md:py-3   hover:bg-orange-200 rounded-lg text-gray-700">
+            <a href={feature.link} target="_blank">
+              Click here!
+            </a>
+          </button>
+        </div>
+      </>
+    ))
+  }
+</div>

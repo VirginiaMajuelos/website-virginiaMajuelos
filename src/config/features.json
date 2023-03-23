@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Portfolio Elena Picanço",
+    "id": 1,
+    "description": "A simple web portfolio with the aim of show professional and musical career's Elena Picanço",
+    "link": "https://elena-picanzo-r20kzsi16-virginiamajuelos.vercel.app/",
+    "img": "src/images/Elena-Picanzo.png",
+    "tech": [
+      {
+        "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
+      }
+    ]
+  },
+  {
+    "title": "Go yoga",
+    "id": 2,
+    "description": "Landing website for  a yoga event on the beach",
+    "link": "https://virginiamajuelos.github.io/goYoga/",
+    "img": "src/images/go-yoga.png",
+    "tech": [
+      {
+        "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-sass-original colored colored text-2xl md:text-4xl"
+      }
+    ]
+  },
+  {
+    "title": "Re-stuff",
+    "id": 3,
+    "description": "Web app to rent personal products between individuals during a determinate  time",
+    "link": "https://github.com/VirginiaMajuelos/re-stuff",
+    "img": "src/images/re-stuff.jpeg",
+    "tech": [
+      {
+        "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-react-original-wordmark colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-nodejs-plain-wordmark colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-mongodb-plain colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-bootstrap-plain colored text-2xl md:text-4xl"
+      }
+    ]
+  },
+  {
+    "title": "Smash-them",
+    "id": 4,
+    "description": "Arcade game about Hulk to learn the principies of javascript",
+    "link": "https://virginiamajuelos.github.io/Arcade-Game-Project/",
+    "img": "src/images/smash-them.png",
+    "tech": [
+      {
+        "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-nodejs-plain-wordmark colored text-2xl md:text-4xl"
+      }
+    ]
+  }
+]
