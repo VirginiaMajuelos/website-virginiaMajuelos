@@ -1,11 +1,42 @@
 [
   {
-    "title": "Portfolio Elena Picanço",
+    "title": "Fluid System: React Component Library",
     "id": 1,
-    "description": "A simple web portfolio with the aim of show professional and musical career's Elena Picanço",
-    "link": "https://elena-picanzo-r20kzsi16-virginiamajuelos.vercel.app/",
-    "img": "images/Elena-Picanzo.png",
+    "description": "An open-source library built to streamline the development of fast and attractive websites through easy-to-use React components and utility classes.",
+    "link": "https://fluid-system.netlify.app/",
+    "img": "/images/fluid-system-macbook.png",
     "alt": "image proyect 1",
+    "tech": [
+      {
+        "icon": "devicon-react-original colored md:text-4xl"
+      },
+      {
+        "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-storybook-plain colored colored md:text-4xl"
+      },
+      {
+        "icon": "devicon-jest-plain colored md:text-4xl"
+      },
+      {
+        "icon": "devicon-npm-original-wordmark colored md:text-4xl"
+      }
+    ]
+  },
+  {
+    "title": "Portfolio Elena Picanço",
+    "id": 2,
+    "description": "A web portfolio created to highlight the professional and musical journey of Elena Picanço.",
+    "link": "https://elena-picanzo-r20kzsi16-virginiamajuelos.vercel.app/",
+    "img": "/images/Elena-Picanzo.png",
+    "alt": "image proyect 2",
     "tech": [
       {
         "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
@@ -20,11 +51,11 @@
   },
   {
     "title": "Go yoga",
-    "id": 2,
+    "id": 3,
     "description": "Landing website for  a yoga event on the beach",
     "link": "https://virginiamajuelos.github.io/goYoga/",
-    "img": "images/go-yoga.png",
-    "alt": "image proyect 2",
+    "img": "/images/go-yoga.png",
+    "alt": "image proyect 3",
     "tech": [
       {
         "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
@@ -42,11 +73,11 @@
   },
   {
     "title": "Re-stuff",
-    "id": 3,
+    "id": 4,
     "description": "Web app to rent personal products between individuals during a determinate  time",
     "link": "https://github.com/VirginiaMajuelos/re-stuff",
-    "img": "images/re-stuff.jpeg",
-    "alt": "image proyect 3",
+    "img": "/images/re-stuff.jpeg",
+    "alt": "image proyect 4",
     "tech": [
       {
         "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
@@ -73,11 +104,11 @@
   },
   {
     "title": "Smash-them",
-    "id": 4,
+    "id": 5,
     "description": "Arcade game about Hulk to learn the principies of javascript",
     "link": "https://virginiamajuelos.github.io/Arcade-Game-Project/",
-    "img": "images/smash-them.png",
-    "alt": "image proyect 4",
+    "img": "/images/smash-them.png",
+    "alt": "image proyect 5",
     "tech": [
       {
         "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
