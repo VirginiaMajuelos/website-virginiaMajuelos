@@ -1,11 +1,42 @@
 [
   {
-    "title": "Fluid System: React Component Library",
+    "title": "FastNet - Website",
     "id": 1,
+    "description": "A web platform offering a range of connectivity products, with an integrated configurator to help users compare, customize, and select the ideal mobile and fiber internet plan.",
+    "link": "https://fastnet-connectivity.netlify.app/",
+    "img": "/images/fastnet.png",
+    "alt": "image proyect 1",
+    "tech": [
+      {
+        "icon": "devicon-react-original colored md:text-4xl"
+      },
+      {
+        "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-typescript-plain colored text-2xl md:text-4xl"
+      },
+      {
+        "icon": "devicon-storybook-plain colored colored md:text-4xl"
+      },
+      {
+        "icon": "devicon-jest-plain colored md:text-4xl"
+      },
+      {
+        "icon": "ddevicon-vitest-plain colored md:text-4xl"
+      }
+    ]
+  },
+  {
+    "title": "Fluid System: React Component Library",
+    "id": 2,
     "description": "An open-source library built to streamline the development of fast and attractive websites through easy-to-use React components and utility classes.",
     "link": "https://fluid-system.netlify.app/",
     "img": "/images/fluid-system-macbook.png",
-    "alt": "image proyect 1",
+    "alt": "image proyect 2",
     "tech": [
       {
         "icon": "devicon-react-original colored md:text-4xl"
@@ -32,11 +63,11 @@
   },
   {
     "title": "Portfolio Elena Picanço",
-    "id": 2,
+    "id": 3,
     "description": "A web portfolio created to highlight the professional and musical journey of Elena Picanço.",
     "link": "https://elena-picanzo-r20kzsi16-virginiamajuelos.vercel.app/",
     "img": "/images/Elena-Picanzo.png",
-    "alt": "image proyect 2",
+    "alt": "image proyect 3",
     "tech": [
       {
         "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
@@ -51,11 +82,11 @@
   },
   {
     "title": "Go yoga",
-    "id": 3,
-    "description": "Landing website for  a yoga event on the beach",
+    "id": 4,
+    "description": "A landing page created to promote a yoga event on the beach, highlighting event details and encouraging participants to join a day of relaxation and wellness.",
     "link": "https://virginiamajuelos.github.io/goYoga/",
     "img": "/images/go-yoga.png",
-    "alt": "image proyect 3",
+    "alt": "image proyect 4",
     "tech": [
       {
         "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
@@ -73,11 +104,11 @@
   },
   {
     "title": "Re-stuff",
-    "id": 4,
-    "description": "Web app to rent personal products between individuals during a determinate  time",
+    "id": 5,
+    "description": "A web app designed to facilitate renting personal products between individuals for a set period, providing an easy and secure way to share items within a community.",
     "link": "https://github.com/VirginiaMajuelos/re-stuff",
     "img": "/images/re-stuff.jpeg",
-    "alt": "image proyect 4",
+    "alt": "image proyect 5",
     "tech": [
       {
         "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
@@ -104,11 +135,11 @@
   },
   {
     "title": "Smash-them",
-    "id": 5,
-    "description": "Arcade game about Hulk to learn the principies of javascript",
+    "id": 6,
+    "description": "An arcade-style game featuring the Hulk, created to teach the fundamentals of JavaScript in a fun and interactive way through gameplay.",
     "link": "https://virginiamajuelos.github.io/Arcade-Game-Project/",
     "img": "/images/smash-them.png",
-    "alt": "image proyect 5",
+    "alt": "image proyect 6",
     "tech": [
       {
         "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
