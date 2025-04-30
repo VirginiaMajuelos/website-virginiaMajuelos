@@ -9,12 +9,35 @@ import Projects from "../components/landing/Projects.astro";
 import Footer from "../components/landing/Footer.astro";
 import Contact from "../components/landing/Contact.astro";
 ---
-
 <Layout title="Welcome to my website">
-  <Header />
-  <About />
-  <Skills />
-  <Projects />
-  <Contact />
-  <Footer />
+  <div class="h-screen overflow-y-scroll snap-y snap-mandatory">
+    <Header />
+    <About />
+    <Skills />
+    <Projects />
+    <Contact />
+    <Footer />
+  </div>
 </Layout>
+
+  <!-- Script de fade-in -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const sections = document.querySelectorAll('section');
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('opacity-100', 'translate-y-0', 'animate-fadeIn');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.2,
+      });
+
+      sections.forEach(section => {
+        observer.observe(section);
+      });
+    });
+  </script>

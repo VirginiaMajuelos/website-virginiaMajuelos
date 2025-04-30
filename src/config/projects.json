@@ -1,158 +1,274 @@
-[
-  {
-    "title": "FastNet - Website",
-    "id": 1,
-    "description": "A web platform offering a range of connectivity products, with an integrated configurator to help users compare, customize, and select the ideal mobile and fiber internet plan.",
-    "link": "https://fastnet-connectivity.netlify.app/",
-    "img": "/images/fastnet.png",
-    "alt": "image proyect 1",
-    "tech": [
-      {
-        "icon": "devicon-react-original colored md:text-4xl"
-      },
-      {
-        "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-typescript-plain colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-storybook-plain colored colored md:text-4xl"
-      },
-      {
-        "icon": "devicon-jest-plain colored md:text-4xl"
-      },
-      {
-        "icon": "ddevicon-vitest-plain colored md:text-4xl"
-      }
-    ]
-  },
-  {
-    "title": "Fluid System: React Component Library",
-    "id": 2,
-    "description": "An open-source library built to streamline the development of fast and attractive websites through easy-to-use React components and utility classes.",
-    "link": "https://fluid-system.netlify.app/",
-    "img": "/images/fluid-system-macbook.png",
-    "alt": "image proyect 2",
-    "tech": [
-      {
-        "icon": "devicon-react-original colored md:text-4xl"
-      },
-      {
-        "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-storybook-plain colored colored md:text-4xl"
-      },
-      {
-        "icon": "devicon-jest-plain colored md:text-4xl"
-      },
-      {
-        "icon": "devicon-npm-original-wordmark colored md:text-4xl"
-      }
-    ]
-  },
-  {
-    "title": "Portfolio Elena Picanço",
-    "id": 3,
-    "description": "A web portfolio created to highlight the professional and musical journey of Elena Picanço.",
-    "link": "https://elena-picanzo-r20kzsi16-virginiamajuelos.vercel.app/",
-    "img": "/images/Elena-Picanzo.png",
-    "alt": "image proyect 3",
-    "tech": [
-      {
-        "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
-      }
-    ]
-  },
-  {
-    "title": "Go yoga",
-    "id": 4,
-    "description": "A landing page created to promote a yoga event on the beach, highlighting event details and encouraging participants to join a day of relaxation and wellness.",
-    "link": "https://virginiamajuelos.github.io/goYoga/",
-    "img": "/images/go-yoga.png",
-    "alt": "image proyect 4",
-    "tech": [
-      {
-        "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-sass-original colored colored text-2xl md:text-4xl"
-      }
-    ]
-  },
-  {
-    "title": "Re-stuff",
-    "id": 5,
-    "description": "A web app designed to facilitate renting personal products between individuals for a set period, providing an easy and secure way to share items within a community.",
-    "link": "https://github.com/VirginiaMajuelos/re-stuff",
-    "img": "/images/re-stuff.jpeg",
-    "alt": "image proyect 5",
-    "tech": [
-      {
-        "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-react-original-wordmark colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-nodejs-plain-wordmark colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-mongodb-plain colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-bootstrap-plain colored text-2xl md:text-4xl"
-      }
-    ]
-  },
-  {
-    "title": "Smash-them",
-    "id": 6,
-    "description": "An arcade-style game featuring the Hulk, created to teach the fundamentals of JavaScript in a fun and interactive way through gameplay.",
-    "link": "https://virginiamajuelos.github.io/Arcade-Game-Project/",
-    "img": "/images/smash-them.png",
-    "alt": "image proyect 6",
-    "tech": [
-      {
-        "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
-      },
-      {
-        "icon": "devicon-nodejs-plain-wordmark colored text-2xl md:text-4xl"
-      }
-    ]
-  }
-]
+{
+  "projects-personal": [
+    {
+      "title": "FastNet - Website",
+      "id": 1,
+      "description": "A web platform offering a range of connectivity products, featuring a custom step-by-step configuration wizard that helps users compare, customize, and select the ideal mobile and fiber internet plan.",
+      "link": "https://fastnet-connectivity.netlify.app/",
+      "img": "/images/fastnet.png",
+      "alt": "image proyect 1",
+      "tech": [
+        {
+          "icon": "devicon-react-original colored md:text-4xl"
+        },
+        {
+          "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-typescript-plain colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-jest-plain colored md:text-4xl"
+        },
+        {
+          "icon": "ddevicon-vitest-plain colored md:text-4xl"
+        }
+      ]
+    },
+    {
+      "title": "Fluid System: React Component Library",
+      "id": 2,
+      "description": "An open-source library built to streamline the development of fast and attractive websites through easy-to-use React components and utility classes.",
+      "link": "https://fluid-system.netlify.app/",
+      "img": "/images/fluid-system-macbook.png",
+      "alt": "image proyect 2",
+      "tech": [
+        {
+          "icon": "devicon-react-original colored md:text-4xl"
+        },
+        {
+          "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-storybook-plain colored colored md:text-4xl"
+        },
+        {
+          "icon": "devicon-jest-plain colored md:text-4xl"
+        },
+        {
+          "icon": "devicon-npm-original-wordmark colored md:text-4xl"
+        }
+      ]
+    },
+    {
+      "title": "Portfolio Elena Picanço",
+      "id": 3,
+      "description": "A web portfolio created to highlight the professional and musical journey of Elena Picanço.",
+      "link": "https://elena-picanzo-r20kzsi16-virginiamajuelos.vercel.app/",
+      "img": "/images/Elena-Picanzo.png",
+      "alt": "image proyect 3",
+      "tech": [
+        {
+          "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
+        }
+      ]
+    },
+    {
+      "title": "Go yoga",
+      "id": 4,
+      "description": "A landing page created to promote a yoga event on the beach, highlighting event details and encouraging participants to join a day of relaxation and wellness.",
+      "link": "https://virginiamajuelos.github.io/goYoga/",
+      "img": "/images/go-yoga.png",
+      "alt": "image proyect 4",
+      "tech": [
+        {
+          "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-sass-original colored colored text-2xl md:text-4xl"
+        }
+      ]
+    },
+    {
+      "title": "Re-stuff",
+      "id": 5,
+      "description": "A web app designed to facilitate renting personal products between individuals for a set period, providing an easy and secure way to share items within a community.",
+      "link": "https://github.com/VirginiaMajuelos/re-stuff",
+      "img": "/images/re-stuff.jpeg",
+      "bootcamp": "Final project IronHack Bootcamp",
+      "alt": "image proyect 5",
+      "tech": [
+        {
+          "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-react-original-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-nodejs-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-mongodb-plain colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-bootstrap-plain colored text-2xl md:text-4xl"
+        }
+      ]
+    },
+    {
+      "title": "Smash-them",
+      "id": 6,
+      "description": "An arcade-style game featuring the Hulk, created to teach the fundamentals of JavaScript in a fun and interactive way through gameplay.",
+      "link": "https://virginiamajuelos.github.io/Arcade-Game-Project/",
+      "img": "/images/smash-them.png",
+      "bootcamp": "First project IronHack Bootcamp",
+      "alt": "image proyect 6",
+      "tech": [
+        {
+          "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-nodejs-plain-wordmark colored text-2xl md:text-4xl"
+        }
+      ]
+    }
+  ],
+  "projects-professional": [
+    {
+      "title": "Form multicontact",
+      "id": 7,
+      "description": "Multi-contact form offering various customer support channels: contact form, live chat, phone call, or scheduled call appointment.",
+      "link": "https://www.vodafone.es/c/empresas/pymes/es/soluciones-digitales-para-pymes/",
+      "video": "/images/burbuja_multicontacto.mp4",
+      "alt": "image proyect 7",
+      "tech": [
+        {
+          "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-handlebars-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-storybook-plain colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-sass-original colored text-2xl md:text-4xl"
+        }
+      ]
+    },
+    {
+      "title": "Red infinity",
+      "id": 8,
+      "description": "Fiber and mobile plan configurator for SMBs(Small and Medium-sized Businesses) and large enterprises, including add-on services like digital solutions, devices, and virtual PBX(Private Branch Exchange), sending a quote to a sales agent for follow-up.",
+      "link": "https://www.vodafone.es/c/empresas/pymes/es/conectividad/red-infinity-configurador/",
+      "video": "/images/red_infinity.mp4",
+      "alt": "image proyect 8",
+      "tech": [
+        {
+          "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-handlebars-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-storybook-plain colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-sass-original colored text-2xl md:text-4xl"
+        }
+      ]
+    },
+    {
+      "title": "Digital solutions",
+      "id": 9,
+      "description": "Distributive page showcasing digital solutions with a dropdown filter to find the best fit for your business needs.",
+      "link": "https://www.vodafone.es/c/empresas/pymes/es/soluciones-digitales-para-pymes/",
+      "video": "/images/filter-digital-solutions.mp4",
+      "alt": "image proyect 9",
+      "tech": [
+        {
+          "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-handlebars-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-storybook-plain colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-sass-original colored text-2xl md:text-4xl"
+        }
+      ]
+    },
+    {
+      "title": "Landing Paid Media Red infinity",
+      "id": 10,
+      "description": "Paid Media landing page promoting fiber and mobile deals for businesses, featuring multiple bundled offers.",
+      "link": "https://www.vodafone.es/c/empresas/pymes/es/ofertas-movil-y-fibra/",
+      "video": "/images/oferta-fibra-movil.mp4",
+      "alt": "image proyect 10",
+      "tech": [
+        {
+          "icon": "devicon-html5-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-css3-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-javascript-plain colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-handlebars-plain-wordmark colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-storybook-plain colored text-2xl md:text-4xl"
+        },
+        {
+          "icon": "devicon-sass-original colored text-2xl md:text-4xl"
+        }
+      ]
+    }
+  ]
+
+}

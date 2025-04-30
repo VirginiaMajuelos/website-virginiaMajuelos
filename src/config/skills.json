@@ -9,6 +9,12 @@
     "icon": "devicon-javascript-plain colored md:text-7xl text-4xl"
   },
   {
+    "icon": "devicon-typescript-plain colored md:text-7xl text-4xl"
+  },
+  {
+    "icon": "devicon-react-original-wordmark colored md:text-7xl text-4xl"
+  },
+  {
     "icon": "devicon-storybook-plain colored md:text-7xl text-4xl"
   },
   {
@@ -21,7 +27,7 @@
     "icon": "devicon-bootstrap-plain colored md:text-7xl text-4xl"
   },
   {
-    "icon": "devicon-react-original-wordmark colored md:text-7xl text-4xl"
+    "icon": "devicon-tailwindcss-plain colored md:text-7xl text-4xl"
   },
   {
     "icon": "devicon-nodejs-plain-wordmark colored md:text-7xl text-4xl"

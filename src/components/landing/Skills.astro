@@ -4,13 +4,12 @@ import { experienceYears } from '../../utils/experience';
 ---
 
 <section
-  class="md:h-screen pb-14 bg-gray-100 text-gray-700 text-center"
-  id="skills"
+  class="min-h-screen snap-start pb-14 bg-gray-100 text-gray-700 text-center opacity-0 translate-y-5 transition-all duration-700" id="skills"
 >
   <h2 class="font-bold text-5xl pt-16">/ skills</h2>
   <p class="text-2xl my-4">+{experienceYears} year of experience</p>
   <div class="flex flex-col md:flex-row md:p-20 p-10 gap-y-10">
-    <div class="flex-1 grid md:grid-cols-5 gap-5 text-center grid-cols-2">
+    <div class="flex-1 grid md:grid-cols-4 gap-5 text-center grid-cols-2">
       {
         skills.map((skill) => (
           <div class="p-4 m-1 md:m-4 border border-indigo-800 hover:border-orange-300 text-center rounded-md ">
@@ -21,7 +20,7 @@ import { experienceYears } from '../../utils/experience';
     </div>
   </div>
   <a
-    href="images/CV-Virginia-Majuelos-Frontend.pdf"
+    href="/public/images/CV_frontend.pdf"
     target="_blank"
     class="bg-orange-300 px-6 py-3 m-2 hover:bg-orange-200 rounded-lg text-gray-700"
     download="CV-Virginia-Majuelos-Frontend">Resume</a
