@@ -21,23 +21,24 @@ import Contact from "../components/landing/Contact.astro";
 </Layout>
 
   <!-- Script de fade-in -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const sections = document.querySelectorAll('section');
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const sections = document.querySelectorAll('section');
 
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('opacity-100', 'translate-y-0', 'animate-fadeIn');
-            observer.unobserve(entry.target);
-          }
-        });
-      }, {
-        threshold: 0.2,
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.remove('opacity-0', 'translate-y-5');
+          entry.target.classList.add('opacity-100', 'translate-y-0', 'animate-fadeIn');
+          observer.unobserve(entry.target);
+        }
       });
-
-      sections.forEach(section => {
-        observer.observe(section);
-      });
+    }, {
+      threshold: 0.1, // menor threshold = se activa antes
     });
-  </script>
+
+    sections.forEach(section => {
+      observer.observe(section);
+    });
+  });
+</script>
